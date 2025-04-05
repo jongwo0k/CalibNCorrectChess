@@ -88,5 +88,5 @@ if __name__ == '__main__':
     
     # 결과 저장 (.npz)
     save_path = r"C:\CV\calibration_result.npz"
-    np.savez("calibration_result.npz", rms = rms, K = K, dist = dist_coeff, rvecs = rvecs, tvecs = tvecs)
+    np.savez(save_path, rms = rms, K = K, dist = dist_coeff, rvecs = rvecs, tvecs = tvecs)
     print(f"Calibration result saved to {save_path}")
