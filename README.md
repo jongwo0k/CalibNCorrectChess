@@ -12,7 +12,7 @@ sample video는 용량 축소를 위해 audio를 제거하고 해상도를 480p�
 - space : chessboard의 코너 찾기
 - enter : 이미지 선택
 - esc : 종료
-- 
+
 선택한 이미지를 기반으로 값을 얻어 결과를 .npz파일로 저장
 
 저장된 결과를 불러와서 distortion correction을 진행
