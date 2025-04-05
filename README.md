@@ -4,6 +4,7 @@ Camera calibration and distortion correction using a video of a chessboard patte
 # 주요 기능
 
 휴대폰 카메라로 chessboard image를 촬영한 video의 camera calibration을 진행
+
 galaxy S23 FE 기본 카메라 사용, sample video는 용량 축소를 위해 audio를 제거하고 해상도를 480p로 낮춤
 
 - space : chessboard의 코너 찾기
