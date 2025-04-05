@@ -27,6 +27,8 @@ sample video는 용량 축소를 위해 audio를 제거하고 해상도를 480p�
 
 ![calibration](./data/images/calibration.png)
 
+### Parameters
+
 변수 목록: ['rms', 'K', 'dist', 'rvecs', 'tvecs']
 
 rms = 0.6233493087745796
