@@ -10,12 +10,12 @@ dist_coeff = np.array([0.00279195, -0.40559272, 0.00018096, 0.000266, 1.53740798
 """
 
 # npz에서 불러오기
-data = np.load(r"C:\CV\calibration_result.npz")
+data = np.load(r"C:\CV\calibration_result.npz") # npz 파일 경로
 K = data["K"]
 dist_coeff = data["dist"]
 
 # video 불러오기
-video_file = r"C:\CV\chessboard.mp4"
+video_file = r"C:\CV\chessboard.mp4" # video 파일 경로
 video = cv.VideoCapture(video_file)
 assert video.isOpened(), 'Cannot read the given input, ' + video_file
 
