@@ -5,7 +5,9 @@ Camera calibration and distortion correction using a video of a chessboard patte
 
 휴대폰 카메라로 chessboard image를 촬영한 video의 camera calibration을 진행
 
-galaxy S23 FE 기본 카메라 사용, sample video는 용량 축소를 위해 audio를 제거하고 해상도를 480p로 낮춤
+galaxy S23 FE 기본 카메라 사용
+
+sample video는 용량 축소를 위해 audio를 제거하고 해상도를 480p로 낮춤
 
 - space : chessboard의 코너 찾기
 - enter : 이미지 선택
@@ -21,7 +23,7 @@ galaxy S23 FE 기본 카메라 사용, sample video는 용량 축소를 위해 a
 
 # 결과
 
-Calibration Chessboard
+## Calibration Chessboard
 
 ![calibration](./data/images/calibration.png)
 
@@ -46,9 +48,13 @@ Distortion Coefficients =
 총 15 장면을 선택해서 진행
 rvecs, tvecs는 보정에 사용되지 않음
 
-Distortion Correction
+## Distortion Correction
+
+### 원본
 
 ![original](./data/images/original.png)
+
+### 보정 적용
 
 ![rectified](./data/images/rectified.png)
 
