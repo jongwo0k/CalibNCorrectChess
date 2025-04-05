@@ -70,7 +70,7 @@ def calib_camera_from_chessboard(images, board_pattern, board_cellsize, K=None, 
     return cv.calibrateCamera(obj_points, img_points, gray.shape[::-1], K, dist_coeff, flags=calib_flags)
 
 if __name__ == '__main__':
-    video_file = r"C:\CV\chessboard.mp4"
+    video_file = r"C:\CV\chessboard.mp4" # video 파일 경로
     board_pattern = (10, 7)
     board_cellsize = 0.025
 
